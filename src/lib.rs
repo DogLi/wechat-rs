@@ -27,6 +27,7 @@ pub mod data_type {
     pub static ATTATCH_FILE: u32 = 5003;
 }
 
+#[derive(Debug, Clone)]
 pub struct WechatClient {
     base_url: Url,
 }

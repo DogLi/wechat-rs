@@ -1,9 +1,6 @@
 #[macro_use]
 extern crate log;
 
-mod client;
-mod proto;
-mod websocket;
-
-pub use client::*;
-pub use websocket::*;
+pub mod client;
+pub mod proto;
+pub mod websocket;

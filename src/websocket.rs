@@ -1,4 +1,4 @@
-mod message;
+pub mod message;
 
 use anyhow::{bail, Error, Result};
 use futures::stream::Stream;
